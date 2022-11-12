@@ -68,6 +68,10 @@ func main() {
 	}
 
 	for key, val := range arnMap {
-		fmt.Printf("%s: %s\n", key, val)
+		if val == "" {
+			fmt.Printf("%s: N/A\n", key)
+		} else {
+			fmt.Printf("%s: %s\n", key, val)
+		}
 	}
 }

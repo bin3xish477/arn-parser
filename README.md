@@ -14,3 +14,7 @@ go install -v github.com/bin3xish477/arn-parser@latest
 ```
 arn-parser --arn "[ARN_STRING]"
 ```
+
+### TODO
+
+- [ ] parse ARN into JSON object
